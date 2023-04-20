@@ -1,0 +1,100 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.cabeçalho { 
+   background-color: black;
+   color: white;
+   display: flex;
+   justify-content: space-around;
+   padding: 15px 0;
+   font-family: 'Ubuntu', sans-serif;
+  
+}
+
+.body {
+   font-family: 'Ubuntu', sans-serif;
+   
+}
+
+.cabeçalho-imagem {
+   width: 6.5%;
+}
+
+.cabeçalho-lista-item {
+  
+display: inline-block;
+margin: 0 25px;
+font-size: 20px;
+}
+
+.cabeçalho-MAAD {
+
+   width: 6.5%;
+}
+
+
+.corpo {
+   background-color: #212121;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 30px 0;
+   
+}
+
+.robozinho {
+   width: 20%;
+}
+
+   .corpo-div-conteudo {
+       width: 35%;
+       font-family: 'Ubuntu', sans-serif;
+   }
+
+   .corpo-titulo {
+       padding: 24px 0px;
+   }
+
+   .alunos-fotos {
+       width: 120px;
+   }
+
+   .aluno-icone {
+       width: 24px;
+   }
+
+    .quem-somos {
+       font-family: 'Ubuntu', sans-serif;
+       background-color: #212121;
+       color: white;
+       text-align: center;
+       padding: 25px 0;
+       background: #181818;
+    }
+
+    .alunos-div {
+       text-align: center;
+       padding: 50px 0;
+    }
+
+    .alunos-todos {
+       display: grid;
+       grid-template-columns: 20% 20% 20% 20% 20%;
+       
+    }
+    .estudante-isolado {
+       text-align: center;
+    }
+
+    .roda-pé {
+       background-color: black;
+       text-align: center;
+    }
+
+    .roda-pé-imagem {
+       height: 70px;
+       padding: 12px 0;
+    }
