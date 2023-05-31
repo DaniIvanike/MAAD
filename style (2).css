@@ -1,21 +1,21 @@
-*{
+* {
    margin: 0;
    padding: 0;
 }
 
-.cabeçalho { 
+.cabeçalho {
    background-color: black;
    color: white;
    display: flex;
    justify-content: space-around;
    padding: 15px 0;
    font-family: 'Ubuntu', sans-serif;
-  
+
 }
 
 .body {
    font-family: 'Ubuntu', sans-serif;
-   
+
 }
 
 .cabeçalho-imagem {
@@ -23,10 +23,10 @@
 }
 
 .cabeçalho-lista-item {
-  
-display: inline-block;
-margin: 0 25px;
-font-size: 20px;
+
+   display: inline-block;
+   margin: 0 25px;
+   font-size: 20px;
 }
 
 .cabeçalho-MAAD {
@@ -42,68 +42,76 @@ font-size: 20px;
    justify-content: center;
    align-items: center;
    padding: 30px 0;
-   
+
 }
 
- .logo-exatas {
+.logo-exatas {
    width: 20%;
 }
 
-   .corpo-div-conteudo {
-       width: 35%;
-       font-family: 'Ubuntu', sans-serif;
-   }
+.corpo-div-conteudo {
+   width: 35%;
+   font-family: 'Ubuntu', sans-serif;
+}
 
-   .corpo-titulo {
-       padding: 24px 0px;
-   }
+.corpo-titulo {
+   padding: 24px 0px;
+}
 
-   .alunos-fotos {
-       width: 120px;
-   }
+.alunos-fotos {
+   width: 120px;
+}
 
-   .aluno-icone {
-       width: 24px;
-   }
+.aluno-icone {
+   width: 24px;
+}
 
-    .quem-somos {
-       font-family: 'Ubuntu', sans-serif;
-       background-color: #212121;
-       color: white;
-       text-align: center;
-       padding: 25px 0;
-       background: #181818;
-    }
+.quem-somos {
+   font-family: 'Ubuntu', sans-serif;
+   background-color: #212121;
+   color: white;
+   text-align: center;
+   padding: 25px 0;
+   background: #181818;
+}
 
-    .alunos-div {
-       text-align: center;
-       padding: 50px 0;
-    }
+.alunos-div {
+   text-align: center;
+   padding: 50px 0;
+}
 
-    .alunos-todos {
-       display: grid;
-       grid-template-columns: 25% 25% 25% 25%;
-       
-    }
-    .estudante-isolado {
-       text-align: center;
-    }
+.alunos-todos {
+   display: grid;
+   grid-template-columns: 25% 25% 25% 25%;
 
-    .roda-pé {
-       background-color: black;
-       text-align: center;
-    }
+}
 
-    .roda-pé-imagem {
-       height: 70px;
-       padding: 12px 0;
-    }
-    .lista-menu__item a{
-      color: #fffdfd;
-    }
-   .lista-menu{
-display: none;
-   } 
-   .container__botao:checked ~ .lista-menu {
-      display: block;
-   }
+.estudante-isolado {
+   text-align: center;
+}
+
+.roda-pé {
+   background-color: black;
+   text-align: center;
+}
+
+.roda-pé-imagem {
+   height: 70px;
+   padding: 12px 0;
+}
+
+.lista-menu__item a {
+   color: #fffdfd;
+}
+
+.lista-menu {
+   display: none;
+}
+
+.container__botao:checked~.lista-menu {
+   display: block;
+}
+
+.container__botao {
+   display: none;
+}
