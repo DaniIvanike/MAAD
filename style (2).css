@@ -98,3 +98,6 @@ font-size: 20px;
        height: 70px;
        padding: 12px 0;
     }
+    .lista-menu__item a{
+      color: #fffdfd;
+    }
