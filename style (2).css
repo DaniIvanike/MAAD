@@ -102,6 +102,7 @@ font-size: 20px;
       color: #fffdfd;
     }
 
-    .container__botao{
+    .container__botao{ 
+      background: url(./Botão.Riscos.MENU.png) no-repeat;
    
     }
