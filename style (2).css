@@ -115,3 +115,7 @@
 .container__botao {
    display: none;
 }
+
+.botao-MENU {
+   width: 5px
+}
