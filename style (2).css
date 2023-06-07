@@ -122,3 +122,6 @@
    padding: 55px 0;
 }
 
+.cabeçalho {
+   display: flex;
+}
