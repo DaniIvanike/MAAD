@@ -4,7 +4,7 @@
  }
  
  .cabeçalho {
-    background-color: #3c1361;
+    background-color: #000000;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -37,7 +37,7 @@
  
  
  .corpo {
-    background-color: #52307C;
+    background-color: #212121;
     color: white;
     display: flex;
     justify-content: center;
