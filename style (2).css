@@ -103,13 +103,13 @@
 
 .lista-menu__item a {
    color: #fffdfd;
+   text-decoration: none;
 }
 
 .lista-menu {
    display: none;
    position: absolute;
    top: 100%;
-   text-decoration: none;
 }
 
 .container__botao:checked ~.lista-menu {
