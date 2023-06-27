@@ -106,8 +106,8 @@
 }
 
 .lista-menu {
+   padding: 1em;
    display: none;
-padding: 1em;
 }
 
 .container__botao:checked ~.lista-menu {
