@@ -104,7 +104,6 @@
 .lista-menu__item a {
    color: #fffdfd;
    text-decoration: none;
-   list-style-type: none;
 }
 
 .lista-menu {
@@ -130,4 +129,8 @@
 .lista-menu__item {
    padding: 1em;
    background-color: black;
+}
+
+.li {
+   list-style-type: none;
 }
