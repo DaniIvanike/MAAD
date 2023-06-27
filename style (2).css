@@ -109,10 +109,6 @@
    display: none;
 
 }
-.lista-menu{
-   position: absolute;
-   top: 100%;
-}
 
 .container__botao:checked ~.lista-menu {
    display: block;
