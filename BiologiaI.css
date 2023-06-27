@@ -103,11 +103,13 @@
  
  .lista-menu__item a {
     color: #fffdfd;
+    text-decoration: none;
  }
  
  .lista-menu {
     display: none;
- 
+    position: absolute;
+    top: 100%;
  }
  
  .container__botao:checked~.lista-menu {
@@ -121,4 +123,10 @@
  .botao-MENU {
     width: 50px;
     padding: 55px 0;
+ }
+
+ .lista-menu
+ .lista-menu__item {
+   padding: 1em;
+   background-color: black;
  }
