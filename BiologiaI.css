@@ -101,24 +101,27 @@
     padding: 12px 0;
  }
  
- .lista-menu__item a {
-    color: #fffdfd;
- }
- 
  .lista-menu {
-    display: none;
- 
- }
- 
- .container__botao:checked~.lista-menu {
-    display: block;
- }
- 
- .container__botao {
-    display: none;
- }
- 
- .botao-MENU {
-    width: 50px;
-    padding: 55px 0;
- }
+   display: none;
+   position: absolute;
+   top: 100%;
+}
+
+.container__botao:checked ~.lista-menu {
+   display: block;
+}
+
+.container__botao {
+   display: none;
+}
+
+.botao-MENU {
+   width: 50px;
+   padding: 55px 0;
+}
+
+.lista-menu,
+.lista-menu__item {
+   padding: 1em;
+   background-color: black;
+}
