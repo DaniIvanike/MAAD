@@ -107,7 +107,7 @@
 
 .lista-menu {
    display: none;
-
+padding: 1em;
 }
 
 .container__botao:checked ~.lista-menu {
