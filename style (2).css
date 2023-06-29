@@ -8,7 +8,7 @@
    color: white;
    display: flex;
    justify-content: space-around;
-   padding: 15px 0;
+   padding: 223px 0;
    font-family: 'Ubuntu', sans-serif;
    position: relative;
 
@@ -47,7 +47,7 @@
 }
 
 .logo-exatas {
-   width: 6.5%;
+   width: 20%;
 }
 
 .corpo-div-conteudo {
