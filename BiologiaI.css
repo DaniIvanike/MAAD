@@ -4,12 +4,13 @@
  }
  
  .cabeçalho {
-    background-color: #000000;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    padding: 15px 0;
-    font-family: 'Ubuntu', sans-serif;
+  background-color:black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+  font-family: 'Ubuntu', sans-serif;
+  position: relative;
     
  
  }
