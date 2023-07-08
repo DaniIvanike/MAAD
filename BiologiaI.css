@@ -122,3 +122,9 @@
     width: 50px;
     padding: 55px 0;
  }
+
+.lista-menu,
+.lista-menu__item {
+   padding: 1em;
+   background-color: black;
+ }
