@@ -107,7 +107,7 @@
     text-decoration: none;
  }
  
- .lista-menu {
+ .container__botao.lista-menu {
     display: none;
     position: absolute;
     top: 100%;
