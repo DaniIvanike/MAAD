@@ -8,7 +8,7 @@
    color: white;
    display: flex;
    justify-content: space-around;
-   padding: 13px 0;
+   padding: 10px 0;
    font-family: 'Ubuntu', sans-serif;
    position: relative;
 
@@ -20,8 +20,8 @@
 }
 
 .cabeçalho-imagem {
-   width: 7%;
-   height: 7%;
+   width: 9%;
+   height: 9%;
 }
 
 .cabeçalho-lista-item {
