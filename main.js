@@ -1,1 +1,1 @@
-alert('oi')
+alert('Bem-vindo ao MAAD!')
