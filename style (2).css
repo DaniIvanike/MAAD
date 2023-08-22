@@ -125,6 +125,7 @@
 .botao-MENU {
    width: 50px;
    padding: 55px 0;
+   cursor: pointer;
 }
 
 .lista-menu,
