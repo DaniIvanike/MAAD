@@ -4,13 +4,12 @@
 }
 
 .cabeçalho {
-   background-color: black;
+   background-color: #000000;
    color: white;
    display: flex;
    justify-content: space-around;
    padding: 15px 0;
    font-family: 'Ubuntu', sans-serif;
-   position: relative;
    
 
 }
@@ -103,39 +102,23 @@
 }
 
 .lista-menu__item a {
-  color: #fffdfd;
-  text-decoration: none;
+   color: #fffdfd;
 }
 
 .lista-menu {
-  display: none;
-  position: absolute;
-  top: 100%;
+   display: none;
 
 }
 
 .container__botao:checked~.lista-menu {
-  display: block;
+   display: block;
 }
 
 .container__botao {
-  display: none;
+   display: none;
 }
 
 .botao-MENU {
-  width: 50px;
-  padding: 55px 0;
+   width: 50px;
+   padding: 55px 0;
 }
-
-.lista-menu,
-.lista-menu__item {
- padding: 1em;
- background-color: black;
-}
-
-
-
-
-
-
-
