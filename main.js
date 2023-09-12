@@ -1,7 +1,5 @@
-alert('Bem-vindo ao MAAD!')
-
 function TocaSomPom () {
-
+    document.querySelector ('#som-tecla-pom').play()
 }
 
 const ListaDeSons = document.querySelectorAll('.tecla');
@@ -14,7 +12,4 @@ while (Contador < 9) {
     console.log(Contador);
 }
 
-ListaDeSons[0].onclick= TocaSomPom;
-
-document.querySelector ('.tecla_pom') .onclick = TocaSomPom;
 
