@@ -4,6 +4,17 @@ function TocaSomPom () {
 
 }
 
-const ListaDeSons = document.querySelectorAll('.tecla')
+const ListaDeSons = document.querySelectorAll('.tecla');
 
-document.querySelector ('.tecla_pom') .onclick = TocaSomPom
+let Contador = 0; 
+
+while (Contador < 9) {
+    ListaDeSons[Contador].onclick = TocaSomPom;
+    Contador = Contador + 1;
+    console.log(Contador);
+}
+
+ListaDeSons[0].onclick= TocaSomPom;
+
+document.querySelector ('.tecla_pom') .onclick = TocaSomPom;
+
