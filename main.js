@@ -1,7 +1,7 @@
 //função = TocaSomPom
 function TocaSomPom (idElementoAudio) {
     //tocar o pom
-    document.querySelector (idElementoAudio).play()
+    document.querySelector (idElementoAudio).play();
 }
 
 //constante = lista dos botões 
@@ -16,7 +16,7 @@ while (Contador < ListaDeSons.length) {
     ListaDeSons[Contador].onclick = function () {
     TocaSomPom('#som-tecla-pom');
     }
-    const classe = lta[contador].classList[1];
+    const classe = lista[contador].classList[1];
     console.log(classe);
     //mudei o valor da variavel
     Contador = Contador + 1;
