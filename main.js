@@ -11,7 +11,7 @@ const ListaDeSons = document.querySelectorAll('.tecla');
 let Contador = 0; 
 
 //enquanto - conição
-while (Contador < ListaDeSons) {
+while (Contador < ListaDeSons.length) {
     //acessando um elemento da lista
     ListaDeSons[Contador].onclick = function () {
     TocaSomPom('#som-tecla-pom');
