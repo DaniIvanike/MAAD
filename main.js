@@ -16,7 +16,7 @@ while (Contador < ListaDeSons.length) {
     ListaDeSons[Contador].onclick = function () {
     TocaSomPom('#som-tecla-pom');
     }
-    const classe = lista[contador].classList[1];
+    const classe = ListaDeSons[contador].classList[1];
     console.log(classe);
     //mudei o valor da variavel
     Contador = Contador + 1;
