@@ -17,6 +17,10 @@ while (Contador < ListaDeSons.length) {
    
     Contador = Contador + 1;
     console.log(Contador);
-    ListaDeSons[5].classList.add('ativa')
+
+    tecla.onkeydown = function () {   
+         ListaDeSons[5].classList.add('ativa')
+    }
+    tecla.onkeyup = function () { 
     tecla.classList.remove('ativa');
 }
