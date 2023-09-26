@@ -12,12 +12,13 @@ let Contador = 0;
 
 //enquanto - conição
 while (Contador < ListaDeSons.length) {
-    //acessando um elemento da lista
+    const classe = ListaDeSons[Contador].classList[1];
+    console.log(classe);
+    const idSom = `#som_{classe}`;
     ListaDeSons[Contador].onclick = function () {
     TocaSomPom('#som-tecla-pom');
     }
-    const classe = ListaDeSons[Contador].classList[1];
-    console.log(classe);
+   
     //mudei o valor da variavel
     Contador = Contador + 1;
     //console ta conversando comigo 
