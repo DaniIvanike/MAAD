@@ -9,14 +9,14 @@ let Contador = 0;
 while (Contador < ListaDeSons.length) {
     const tecla = ListaDeSons
     const classe = ListaDeSons[Contador].classList[1];
-    console.log(classe);
+    //console.log(classe);
     const idSom = `#som_{classe}`;
     ListaDeSons[Contador].onclick = function () {
     TocaSomPom('#som-tecla-pom');
     }
    
     Contador = Contador + 1;
-    console.log(Contador);
+    //console.log(Contador);
 
     tecla.onkeydown = function (evento) { 
         if(evento.code === 'Space' || evento.code === 'Enter'){
