@@ -122,3 +122,10 @@
    width: 50px;
    padding: 55px 0;
 }
+
+.tecla{padding: 30px;}
+.tecla.ativa,
+.tecla:active{
+   background-color: aqua;
+   box-shadow: 3px 3px 3px yellow;
+}
