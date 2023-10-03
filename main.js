@@ -22,7 +22,7 @@ while (Contador < ListaDeSons.length) {
         if (evento.code === 'Space' || evento.code === 'Enter') {
             tecla.classList.add('ativa');
         }
-        //console.log(evento.code === 'Space'); || evento.code === 'Enter');
+        console.log(evento.code === 'Enter'); 
     }
 
     tecla.onkeyup = function () {
