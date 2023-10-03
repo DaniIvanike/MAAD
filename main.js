@@ -20,7 +20,10 @@ while (Contador < ListaDeSons.length) {
 
     tecla.onkeydown = function () {   
          ListaDeSons[5].classList.add('ativa')
+         console.log(evento.code === 'Space'); || evento.code === 'Enter');
+
     }
+    
     tecla.onkeyup = function () { 
     tecla.classList.remove('ativa');
 }
