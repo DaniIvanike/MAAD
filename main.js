@@ -22,12 +22,10 @@ while (Contador < ListaDeSons.length) {
         if(){
             tecla.classList.add('ativa');
         }  
-         ListaDeSons[5].classList.add('ativa')
          //console.log(evento.code === 'Space'); || evento.code === 'Enter');
     }
-    }
-    
+        
     tecla.onkeyup = function () { 
     tecla.classList.remove('ativa');
-}
+    }
 }
