@@ -17,7 +17,7 @@ const listaDeTeclas = document.querySelectorAll('.teclado');
 for (let contador = 0; contador < listaDeTeclas.length; contador++) {
 
     const teclado = listaDeTeclas[contador];
-    const instrumento = teclado.classList[1];
+    const instrumento = teclado[1];
     const idAudio = `#som-${instrumento}`; //template string
 
     teclado.onclick = function () {
