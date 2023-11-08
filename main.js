@@ -18,7 +18,7 @@ for (let contador = 0; contador < listaDeTeclas.length; contador++) {
 
     const teclado = listaDeTeclas[contador];
     const instrumento = teclado.classList[1];
-    const idAudio = `#som_${instrumento}`; //template string
+    const idAudio = `#som-tecla${instrumento}`; //template string
 
     teclado.onclick = function () {
         tocaSom(idAudio);
