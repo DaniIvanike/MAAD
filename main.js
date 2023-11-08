@@ -11,29 +11,29 @@ function tocaSom (seletorAudio) {
 
 }
 
-const listaDeTeclas = document.querySelectorAll('.tecla');
+const listaDeTeclas = document.querySelectorAll('.teclado');
 
 //para
 for (let contador = 0; contador < listaDeTeclas.length; contador++) {
 
-    const tecla = listaDeTeclas[contador];
-    const instrumento = tecla.classList[1];
+    const teclado = listaDeTeclas[contador];
+    const instrumento = teclado.classList[1];
     const idAudio = `#som_${instrumento}`; //template string
 
-    tecla.onclick = function () {
+    teclado.onclick = function () {
         tocaSom(idAudio);
     }
 
-    tecla.onkeydown = function (evento) {
+    teclado.onkeydown = function (evento) {
 
         if (evento.code === 'Space' || evento.code === 'Enter') {
-            tecla.classList.add('ativa');
+            teclado.classList.add('ativa');
         }
 
     }
 
-    tecla.onkeyup = function () {
-        tecla.classList.remove('ativa');
+    teclado.onkeyup = function () {
+        teclado.classList.remove('ativa');
     }
 
 }
