@@ -24,6 +24,18 @@ for (let contador = 0; contador < listaDeTeclas.length; contador++) {
         tocaSom(idAudio);
     }
 
+
+    const idSom = `#som_${classe}`;
+    //console.log(idSom);
+
+    lista[Contador].onclick = function() {
+    tocar(idSom);
+}
+
+
+
+
+
     tecla.onkeydown = function (evento) {
 
         if (evento.code === 'Space' || evento.code === 'Enter') {
