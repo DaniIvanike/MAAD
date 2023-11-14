@@ -55,7 +55,7 @@
     </section>
 
     <section class="quem-somos">
-        <h2 class="quem-somos-titulo">Trabalho</h2>
+        <h2 class="quem-somos-titulo">Atividade 01 (Teclado de Som)</h2>
         <section style="text-align: center;">
             <button class="cu" onclick="alert('oi 👌')">
                 Clique aqui!
@@ -153,5 +153,63 @@
         <img class="roda-pé-imagem" src="logoMAAD.png" alt="Logo MAAD">
     </footer>
     <script src="main.js"></script>
+
+    <section class="quem-somos">
+        <h2 class="quem-somos-titulo">Atividade 01 (Calculadora)</h2>
+        <div id="apresentacao"> 
+            <label id="seunome"> Qual seu nome ? </label> <br>
+               <input type="text" id="name" size="15"> <br>
+               <button type= "submit" onclick="nome()">confirmar </button>
+            <h2 id="show4">Olá me chamo Cauã &#128512 </h2>
+           </div>
+           <!-- FIM(APRESENTAÇÃO)-->
+           <br>
+           <hr>
+           <!--TITULO-->
+           <div class="bloco">
+             <h1>operações matematicas</h1>
+           <!--/-->
+           <hr>
+            <label class="titulo"> multiplicação(*)</label> <br>
+               <input type ="number" id="num" class="input"> 
+            <label id="sinal"> x </label>
+               <input type ="number" id="num2" class="input"> <br>
+              <button type = "submit" id="conta" onclick="texto()" >Resultado</button>
+           <h2 id="show"></h2>
+           </div>
+           
+           
+           <div class="bloco">
+           <label class="titulo"> divisão(/)</label> <br>
+               <input type ="number" id="div" class="input"><label id="sinal"> / </label>
+               <input type ="number" id="div2"class="input"> <br>
+             <button type="submit" id="clicar" onclick="numero()">Resultado</button>
+           <h2 id="show2"></h2>
+           </div>
+           
+           
+           <div class="bloco">
+             <label class="titulo">subtração(-(<strong>não esta pronto</strong>)</label> <br>
+               <input type="number" id="num2" class="input"> <label id="sinal"> - </label>
+               <input type="number" id="num3" class="input"> <br>
+             <button type="submit" id="resultado" onclick="number()">Resultado</button>
+           <h2 id="show3"></h2>
+           </div>
+           
+           
+           <div class="bloco">
+             <label class="titulo"> potência(^2) </label> <br>
+             <input type="number" id="pote" class="input"> <br>
+             <button type="submit" onclick="result()"> Resultado </button>
+             <h2 id="show5"></h2>
+        
+        
+           <!--ALERT-->
+           <script>
+           window.alert("Seja bem-vindo!");
+           </script>
+    </section>
+
+
 </body>
 </html>
